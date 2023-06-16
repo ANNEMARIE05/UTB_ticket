@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 8vh;
+    width: 100%;
+    background-color: #FA983A;
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+}
+header ul{
+    display: flex;
+}
+header ul li{
+    margin: 0 3rem;
+    color: #000;
+}
+a{
+    list-style-type: none;
+    text-decoration: none;
+}
+header h3{
+    color: #FFF;
+    font-weight: 100;
+}
+.menu{
+    padding: 5rem;
+    background-size: cover;
+    background: linear-gradient(rgba(155, 82, 14, 0.413),rgba(155, 82, 14, 0.413)),
+    url(/imag/pexels-nubia-navarro-\(nubikini\)-385998.jpg);
+}
+.menu div{
+    width: 33%;
+    margin: auto;
+    padding: 9rem;
+    background-color: #FFF;
+}
+.menu h1{
+    font-weight: 100;
+    margin: 1rem 0;
+    font-size: 1.6rem;
+}
+.menu p{
+    font-size: 1.3rem;
+}
+.theFooter{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+    background-color: #FA983A;
+    color: #FFF;
+}
+.theFooter a{
+    color: #FFF;
+}
+.theFooter h2{
+    font-weight: 100;
+}
+.theFooter input{
+    padding: 0.5rem;
+    width: 15vw;
+    height: 4.5vh;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    background: none;
+    color: #FFF;
+}
+.lien{
+    text-align: center;
+}
+.theFooter i{
+    font-size: 1rem;
+    margin: 0.1rem;
+}
+.theFooter button{
+    height: 4.5vh;
+    border: 1px solid #FA983A;
+    background-color: #FFF;
+    width: 6vw;
+    color: #FA983A;
+    border-radius: 5px;
+}
+::placeholder{ 
+    color: #FFF;
+}
+footer{
+    text-align: center;
+    color: #FFF;
+    padding: 2rem;
+    background-color: #000;
+}
