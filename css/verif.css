@@ -13,6 +13,7 @@ body{
     margin: 13rem auto 0;
     border: 1px solid #BE2EDD;
     border-radius: 1rem;
+    padding: 1rem;
 }
 .menu{
     width: 100%;
@@ -28,27 +29,11 @@ h1{
 h1 span{
     color: #BE2EDD;
 }
-.liste-choix{
-    text-align: center;
+h3{
+    font-weight: 300;
 }
-.liste-choix p{
-    margin: .6rem;
-}
-input{
-    height: 4.5vh;
-    width: 90%;
-    padding: 1rem;
-    margin: .5rem 0;
-    border-radius: 3px;
-    border: 1px solid #1e1e1e79;
-}
-select{
-    width: 90%;
-    height: 4.5vh;
-    margin: .4rem 0;
-    border-radius: 3px;
-    border: 1px solid #1e1e1e79;
-    color: #1e1e1eeb;
+.bilan{
+    margin-top: 2rem;
 }
 .horraire{
     display: flex;
@@ -56,21 +41,36 @@ select{
     text-align: center;
 }
 .horraire div{
-    height: 8vh;
     width: 43%;
     margin: 1rem;
+}
+label{
+    margin: 1rem;
+    line-height: 2.5;
+}
+.pay{
+    text-align: center;
+    padding: .5rem;
 }
 .btn{
     display: flex;
     justify-content: center;
     padding: 1rem;
 }
-button{
+.btn button{
     height: 4.5vh;
     width: 15vw;
-    margin: 0 0 2rem 0;
+    margin: 0 0 1rem 0;
     background-color: #BE2EDD;
     border-radius: 5px;
     color: #FFF;
     border: none;
+}
+.horraire button{
+    height: 4.5vh;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #000000b5;
+    border: 1px solid #F0932B;
 }
