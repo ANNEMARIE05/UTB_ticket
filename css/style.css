@@ -5,14 +5,14 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #F0F0F0;
+    background-color: #333333d3;
 }
 .container{
     width: 28%;
     background-color: #FFF;
     margin: 13rem auto 0;
-    border: 1px solid #BE2EDD;
-    border-radius: 1rem;
+    border: 1px solid #2e2d2d5d;
+    border-radius: 4px;
 }
 .menu{
     width: 100%;

@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <section class="menu">
+        <form action="" class="menu">
             <div class="en-tete">
                 <h1><span>UTB </span>ticket</h1>
                 <h3>RENSEIGNER LES CHAMPS SUIVANTS</h3>
@@ -54,9 +54,18 @@
                 </div>
             </div>
             <div class="btn">
-                <a href="html/verif.html"><button>VALIDER</button></a>
+                <button class="boutton" type="submit">VALIDER</button>
             </div>
-        </section>
+        </form>
     </div>
+
+    <script>
+        const btn = document.querySelector('.boutton')
+        btn.addEventListener("click", (e)=>{
+            e.preventDefault();
+            console.log(btn);
+            window.location.pathname="html/verif.html";
+        })
+    </script>
 </body>
 </html>
