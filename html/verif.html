@@ -11,35 +11,47 @@
     <div class="modal-container">
         <div class="overlay"></div>
         <div class="modal">
+            <p class="liens"><span>UTB </span>ticket</p>
             <div class="close-modal modal-trigger">X</div>
-            <label for="">NUMERO</label><input type="text" placeholder="Entrez votre numero"><br>
-            <label for="">MONTANT :</label><input type="text" placeholder="Entrez le montant"><br>
-            <label for="">CODE SECRET :</label><input type="text" placeholder="Entrez votre code secret"><br>
-            <button>VALIDER</button><button>ANNULER</button>
+            <div class="diplay">
+                <div class="div1">
+                    <label for="">NUMERO :</label><br>
+                    <label for="">MONTANT :</label><br>
+                    <label for="">CODE SECRET :</label>
+                </div>
+                <div class="div2">
+                    <input type="text" placeholder="Entrez votre numero"><br>
+                    <input type="text" placeholder="Entrez le montant"><br>
+                    <input type="text" placeholder="Entrez votre code secret"><br>
+                </div>
+            </div>
+            <div class="btnModal">
+                <button class="valider">VALIDER</button><button class="modal-trigger annuler">ANNULER</button>
+            </div>
         </div>
     </div>
 
     <div class="container"> 
         <form action="" class="menu">
             <div class="en-tete">
-                <h1><span>UTB </span>ticket</h1>
+                <h1 class="lien"><span>UTB </span>ticket</h1>
                 <h3>VERIFIER SI LES CHAMPS REMPLIR SONT CORRECT SI NON CLIQUEZ SUR MODIFIER </h3>
             </div>
             <div class="bilan">
-                <label for="">NOM ET PRENOM : </label><label for="">BACHELOR BACHELAR</label><br>
-                <label for="">GARE DE DEPART : </label><label for="">YAMOUSSOUKRO</label><br>
-                <label for="">GARE D’ARRIVER : </label><label for="">ABIDJAN</label><br>
-                <label for="">DATE DE DEPART : </label><label for="">12/06/2023</label><br>
-                <label for="">HEURE DE DEPART : </label><label for="">09H00</label><br>
+                <label for="">NOM ET PRENOM : </label><label class="myname" for=""></label><br>
+                <label for="">GARE DE DEPART : </label><label class="mydepart" for=""></label><br>
+                <label for="">GARE D’ARRIVER : </label><label class="myarriver" for=""></label><br>
+                <label for="">DATE DE DEPART : </label><label class="mydate" for=""></label><br>
+                <label for="">HEURE DE DEPART : </label><label class="myheure" for=""></label><br>
             </div>
             <div class="pay">
                 <h3>MOYEN DE PAYEMENT</h3>
                 <div class="horraire">
                      <div>
-                        <a href=""><button type="submit" class="modal-btn modal-trigger boutton">CARTE BANCAIRE</button></a>
+                        <a href=""><button type="submit" class="modal-btn modal-trigger bancaire">CARTE BANCAIRE</button></a>
                     </div>
                      <div>
-                        <a href=""><button type="submit" class="modal-btn modal-trigger bouton">MONEY</button></a>
+                        <a href=""><button type="submit" class="modal-btn modal-trigger money">MONEY</button></a>
                     </div>
                 </div>
             </div>

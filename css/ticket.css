@@ -5,14 +5,15 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #F0F0F0;
+    background-color: #33333364;
 }
 .container{
-    width: 25%;
+    max-width: 500px;
+    min-width: 300px;
     background-color: #FFF;
     margin: 13rem auto 0;
-    border: 1px solid #BE2EDD;
-    border-radius: .5rem;
+    border: 1px solid #00000085;
+    border-radius: 2px;
     padding: 2rem;
 }
 .menu{
