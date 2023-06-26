@@ -6,8 +6,7 @@ const heure = document.querySelector("#heure")
 const soumettre = document.querySelector('.soumettre')
 
 
-soumettre.addEventListener("click",(event) =>{
-    event.preventDefault();
+soumettre.addEventListener("click",() =>{
     console.log(ipt.value);
     console.log(depart.value);
     console.log(arriver.value);
@@ -23,5 +22,4 @@ soumettre.addEventListener("click",(event) =>{
     };
 
     localStorage.setItem("monTicket", JSON.stringify(monTicket))
-    window.location.href="/html/verif.html"; 
 })

@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333333d3;
+}
+.container{
+    max-width: 500px;
+    min-width: 300px;
+    background-color: #FFF;
+    margin: 13rem auto 0;
+    border: 1px solid #2e2d2d5d;
+    border-radius: 4px;
+}
+.menu{
+    width: 100%;
+}
+.en-tete{
+    text-align: center;
+}
+h1{
+    margin: 2rem;
+    font-weight: 100;
+    color: #F0932B;
+}
+h1 span{
+    color: #BE2EDD;
+}
+.liste-choix{
+    text-align: center;
+}
+.liste-choix p{
+    margin: .6rem;
+}
+input{
+    height: 4.5vh;
+    width: 90%;
+    padding: 1rem;
+    margin: .5rem 0;
+    border-radius: 3px;
+    border: 1px solid #1e1e1e79;
+}
+select{
+    width: 90%;
+    height: 4.5vh;
+    margin: .4rem 0;
+    border-radius: 3px;
+    border: 1px solid #1e1e1e79;
+    color: #1e1e1eeb;
+}
+.horraire{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.horraire div{
+    height: 8vh;
+    width: 43%;
+    margin: 1rem;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+button{
+    height: 4.5vh;
+    width: 15vw;
+    margin: 0 0 2rem 0;
+    background-color: #BE2EDD;
+    border-radius: 5px;
+    color: #FFF;
+    border: none;
+}
+button a{
+    text-decoration: none;
+    color: #FFF;
+}
