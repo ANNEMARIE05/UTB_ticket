@@ -14,6 +14,10 @@ header{
     color: #FFF;
     justify-content: space-between;
 }
+header a{
+    text-decoration: none;
+    color: #FFF;
+}
 ul{
     display: flex;
     color: #FFF;
@@ -50,4 +54,134 @@ ul li{
     text-decoration: none;
     font-size: 1.2rem;
     color: #FFF;
+}
+.menu{
+    padding: 3rem;
+    width: 100%;
+    text-align: center;
+}
+.menu h1{
+    font-weight: 300;
+    line-height: 2;
+}
+.menu img{
+    width: 100%;
+    background-size: contain;
+    border-radius: 10px;
+    height: 100%;
+}
+.blog{
+    padding: 5rem;
+    background-color:rgb(34, 34, 34);
+    color: #FFF;
+    font-size: 1.6rem;
+    line-height: 1.7;
+}
+.service{
+    padding: 3rem;
+    background-color: #333333;
+    justify-content: center;
+    display: flex
+}
+.service .serv{
+    width: 80%;
+}
+.service h1{
+    line-height: 2;
+    color: #FFF;
+}
+.info{
+    display: flex;
+    color: #FFF;
+}
+.info div{
+    width: 30%;
+    margin-right: 2rem;
+}
+.info img{
+    width: 100%;
+    border-radius: 10px;
+}
+.info h2{
+    line-height: 2;
+}
+.info p{
+    line-height: 1.5;
+}
+.local{
+    padding: 1.5rem;
+    background-color: rgb(34, 34, 34);
+    justify-content: center;
+    display: flex;
+}
+.local div{
+    width: 38%;
+    margin: 1rem;
+    color: #FFF;
+    line-height: 2;
+}
+.local img{
+    width: 100%;
+    border-radius: 10px;
+}
+.message{
+    padding: 3rem;
+    background-color: #333333;
+    justify-content: center;
+    display: flex;
+}
+.message .mess{
+    width: 40%;
+    margin: 1rem;
+    color: #FFF;
+    line-height: 1.5;
+}
+.mess input{
+    width: 40%;
+    margin: 0.5rem;
+    height: 4vh;
+    padding: 1rem;
+    border-radius: 3px;
+    border: none;
+}
+.mess textarea{
+    margin: 0.5rem;
+    width: 82%;
+    height: 10vh;
+    padding: 1rem;
+    border-radius: 3px;
+    border: none;
+}
+.mess button a{
+    text-decoration: none;
+    color: #FFF;
+}
+.mess button{
+    margin-left: 0.5rem;
+    height: 4.5vh;
+    width: 150px;
+    background-color: #BE2EDD;
+    border-radius: 5px;
+    border: 1px solid #BE2EDD;
+}
+.apropos{
+    padding: 5rem;
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    font-size: 1.2rem;
+    color: #FFF;
+}
+.apropos h1{
+    line-height: 1.5;
+}
+.apropos p{
+    margin: 0.4rem;
+    line-height: 1.5;
+}
+footer{
+    display: flex;
+    color: #FFF;
+    justify-content: space-between;
+    padding: 5rem;
+    background-color: #f0942bf3;
 }
